@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Marco Lewandowski</Authors>
+    <Company>SWMS Consulting GmbH</Company>
   </PropertyGroup>
 
   <ItemGroup>

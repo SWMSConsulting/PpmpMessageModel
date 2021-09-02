@@ -7,8 +7,8 @@ using System.Text;
 namespace PpmpMessageModel.Enums
 {
     [JsonConverter(typeof(StringEnumConverter))]
-    public enum State
+    public enum MessageType
     {
-        NEW, ENDED
+        INFO, WARNING, ERROR, UNKNOWN
     }
 }

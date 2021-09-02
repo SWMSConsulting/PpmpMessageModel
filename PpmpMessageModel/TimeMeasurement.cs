@@ -12,7 +12,7 @@ namespace PpmpMessageModel
         public string? Code { get; set; }
 
         [JsonProperty(PropertyName = "context")]
-        public List<Context> Context { get; set; }
+        public Dictionary<string, PpmpContext>? Context { get; set; }
 
         [JsonProperty(PropertyName = "result")]
         public Result? Result { get; set; }

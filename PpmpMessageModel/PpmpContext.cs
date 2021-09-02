@@ -5,10 +5,10 @@ using System.Dynamic;
 
 namespace PpmpMessageModel
 {
-    public class Context
+    public class PpmpContext
     {
         [JsonProperty(PropertyName = "limits")]
-        public List<Limit>? Limits { get; set; }
+        public Limit? Limits { get; set; }
 
         [JsonProperty(PropertyName = "namespace")]
         public string? Namespace { get; set; }

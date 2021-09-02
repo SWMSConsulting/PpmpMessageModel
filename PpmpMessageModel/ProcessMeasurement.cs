@@ -12,7 +12,7 @@ namespace PpmpMessageModel
         public string? Code { get; set; }
 
         [JsonProperty(PropertyName = "context")]
-        public List<Context> Context { get; set; }
+        public List<PpmpContext>? Context { get; set; }
 
         [JsonProperty(PropertyName = "name")]
         public string? Name { get; set; }
@@ -27,7 +27,7 @@ namespace PpmpMessageModel
         public TimeSeries Series { get; set; }
 
         [JsonProperty(PropertyName = "specialValues")]
-        public List<SpecialValue> SpecialValues { get; set; }
+        public List<SpecialValue>? SpecialValues { get; set; }
 
         [JsonProperty(PropertyName = "ts")]
         public DateTime Ts { get; set; }

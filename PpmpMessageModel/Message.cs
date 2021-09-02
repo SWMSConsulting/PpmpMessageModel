@@ -35,7 +35,7 @@ namespace PpmpMessageModel
         public DateTime Ts { get; set; }
 
         [JsonProperty(PropertyName = "type")]
-        public Enums.Type? Type { get; set; }
+        public MessageType? Type { get; set; }
 
         [JsonProperty(PropertyName = "additionalData")]
         public ExpandoObject? AdditionalData { get; set; }
